@@ -13,7 +13,7 @@ const FooterCardList = () => {
                 {moreInfo.map((info, i) => {
                     return (
                         <FooterCard
-                            id={moreInfo[i].id}
+                            key={moreInfo[i].id}
                             description={moreInfo[i].description}
                             buttonText={moreInfo[i].buttonText} />)
                 }
