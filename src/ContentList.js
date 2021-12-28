@@ -9,7 +9,7 @@ const ContentList = () => {
     return (
         <>
             {bodyContent.map((content, i) => {
-                return <Content textContent={bodyContent[i].description} />
+                return <Content key={bodyContent[i].id} textContent={bodyContent[i].description} />
 
             })}
 
