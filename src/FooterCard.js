@@ -3,12 +3,13 @@ import React from 'react';
 const FooterCard = ({ id, description, buttonText }) => {
 
     return (
-        <>
+        <div >
+            <div className='subtitle'>
+                <div> {description}</div>
+            </div>
 
-            <div> {id}</div>
-            <div> {description}</div>
             <button> {buttonText}</button>
-        </>
+        </div>
     );
 }
 

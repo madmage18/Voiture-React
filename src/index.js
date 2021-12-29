@@ -1,13 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-//import Card from './Card';
-//import { cars } from './Cars';
-//import Hero from './Hero';
-//import FooterCard from './FooterCard';
-//import FooterCardList from './FooterCardList';
-//import CardList from './CardList';
-//import ContentList from './ContentList.js';
+import './index.css';
+import 'bulma/css/bulma.min.css';
 import reportWebVitals from './reportWebVitals';
 
 
