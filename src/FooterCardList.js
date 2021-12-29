@@ -8,7 +8,9 @@ const FooterCardList = () => {
 
     return (
         <>
-            <h1>Learn more</h1>
+            <div className='title'>
+                <h1>Learn more</h1>
+            </div>
             <div>
                 {moreInfo.map((info, i) => {
                     return (

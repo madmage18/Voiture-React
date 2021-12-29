@@ -4,7 +4,7 @@ const Card = ({ id, make, model, year }) => {
 
     return (
         <>
-            <h1>Cars Card</h1>
+            <h1>Available Car</h1>
             <div>{make}</div>
             <div>{model}</div>
             <div>{year}</div>

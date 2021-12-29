@@ -5,6 +5,7 @@ import CardList from './CardList';
 import ContentList from './ContentList';
 import SearchBox from './SearchBox';
 import { cars } from './Cars';
+import Scroll from './Scroll';
 
 class App extends Component {
 
@@ -29,13 +30,15 @@ class App extends Component {
         });
 
         return (
-            <>
+            <div>
                 <Hero />
                 <SearchBox onChange={this.onSearchChange} />
-                <CardList cars={filteredCars} />
+                <Scroll>
+                    <CardList cars={filteredCars} />
+                </Scroll>
                 <ContentList />
                 <FooterCardList />
-            </>
+            </div>
         );
 
     }
